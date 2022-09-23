@@ -13,7 +13,7 @@
     "g-c-test": "cd android && ./gradlew clean && cd .. && react-native run-android --variant=release",
     "g-c-build": "cd android && ./gradlew clean && ./gradlew app:assembleRelease",
     "g-c-bundle": "cd android && ./gradlew clean && ./gradlew bundleRelease",
-    "push": "git status && git add . && git commit -m 'finish new theme' && git push origin master",
+    "push": "git status && git add . && git commit -m 'init project' && git push origin master",
     "xcode": "xed -b ios",
     "start-port": "react-native start --port 8080",
     "android-port": "react-native run-android --port 8080 --deviceId 0151531S40118D97",
